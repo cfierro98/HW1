@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HW 1: Programming Languages </title>
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        header, main, nav, footer {
+            text-align: center;
+        }
+
+            nav a {
+                padding: 15px;
+                padding-bottom: 4px;
+                font-size: 1.5em;
+                text-decoration: none;
+                color: black;
+            }
+
+                nav a:hover {
+                    border-bottom: 2px green solid;
+                    font-size: 1.7em;
+                    transition: .5s;
+                }
+
+        main {
+            display: flex;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Programming Languages</h1>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="database.html"> Databases </a>
+            <a href="cybersecurity.html"> CyberSecurity </a>
+            <a href="webdev.html"> Web Development</a>
+        </nav>
+    </header>
+
+    <main class="intro">
+
+        
+
+        <div>
+            <p>Programming Languages is a system of notation used to write computer programs.</p>
+            <p>It allows for humans to communicate with computers and control its behaviors.</p>
+            <img src="img/programming.png">
+            <p class="img-credit"><em>Image from iStockPhoto.com</em></p>
+
+            <div class="info-section">
+                <h3>Key components of a programming language include:</h3>
+                <p><strong>Syntax:</strong> Specifies how characters are arranged to form valid statements and expressions.</p>
+                <pre><code>print("Hello, world!")</code></pre>
+
+                <p><strong>Data Types:</strong> Values stored and manipulated in a program such as integers, strings, booleans, etc.</p>
+                <pre><code>
+name = "Claudia"   #string
+age = 28           #integer
+isStudent = true   #boolean
+                </code></pre>
+
+                <p><strong>Control Structures:</strong> Statements that control the flow of a program.</p>
+                <pre><code>
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+                </code></pre>
+
+                <h3>Popular Programming Languages:</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        CST336 Internet Programming. 2026 &copy; Fierro-Ojeda<br>
+        <strong>Disclaimer:</strong> The information provided is for academic purposes only.<br>
+        <img src="img/csumb.png">
+    </footer>
+
+</body>
+
+
+</html>
